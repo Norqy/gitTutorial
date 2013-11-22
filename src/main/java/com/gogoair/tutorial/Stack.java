@@ -15,6 +15,8 @@ public class Stack<E> {
 	private int size;
 	private Node top;
 	
+	//added the second comment
+	
 	public Stack() {
 		this.size = 0;
 		this.top = null;
