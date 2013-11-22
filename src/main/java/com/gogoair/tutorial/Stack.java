@@ -24,7 +24,7 @@ public class Stack<E> {
 	}
 	
 	public E pop() {
-		if (top != null) {
+		if (top == null) {
 			E data = top.data;
 			top = top.next;
 			this.size--;
