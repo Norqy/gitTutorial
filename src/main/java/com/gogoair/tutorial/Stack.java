@@ -1,5 +1,7 @@
 package com.gogoair.tutorial;
 
+// added the first comment
+
 public class Stack<E> {
 	private class Node {
 		public E data;
